@@ -3,4 +3,5 @@ Simple demonstration using React.js in a modern ASP.NET with Aspire orchestratio
 
 ## Build Instructions
 1. Install node.js from https://nodejs.org/en/download/
-2. Build all
+2. Run `npm i ./ReactExample.React/`
+3. Build all
