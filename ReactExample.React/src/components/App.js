@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import Calendar from 'react-calendar';
 import "./App.css";
 
 function App() {
+  const [value, onChange] = useState([]);
   const [forecasts, setForecasts] = useState([]);
 
   const requestWeather = async () => {
@@ -53,6 +55,10 @@ function App() {
             })}
           </tbody>
         </table>
+		<h1>React Calendar</h1>
+		<div>
+			<Calendar onChange={onChange} value={value} />
+		</div>
       </header>
     </div>
   );
