@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "angular-weather": "file:AspireJavaScript.Angular",
+    "react-weather": "file:AspireJavaScript.React",
+    "vue-weather": "file:AspireJavaScript.Vue"
+  }
+}
